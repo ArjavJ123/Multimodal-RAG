@@ -1,0 +1,24 @@
+# Core LLM / orchestration
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.2.0
+langgraph>=0.2.0
+
+# Vector store
+chromadb>=0.5.0
+langchain-chroma>=0.2.0
+
+# Document loaders
+pypdf>=4.0.0          # PDF dependency (kept for compatibility)
+pdfplumber>=0.11.0    # PDF loading — better whitespace handling than PyPDF
+docx2txt>=0.8         # DOCX loading (Docx2txtLoader)
+pymupdf>=1.24.0       # Image extraction from PDFs/DOCXs (fitz)
+
+# OpenAI SDK
+openai>=1.40.0
+
+# Utilities
+python-dotenv>=1.0.0  # Load OPENAI_API_KEY from .env
+
+# UI
+streamlit>=1.40.0
